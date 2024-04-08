@@ -21,9 +21,9 @@
         <td><%= friend.phone %></td>
         <td><%= friend.twitter %></td>
         <td>
-          <%= link_to 'Show', friend %>
-          <%= link_to 'Edit', edit_friend_path(friend) %>
-          <%= link_to 'Destroy', friend, method: :delete %>
+          <%= link_to 'Show', friend, class:"btn btn-secondary btn-sm" %>
+          <%= link_to 'Edit', edit_friend_path(friend), class:"btn btn-secondary btn-sm" %>
+          <%= link_to 'Destroy', friend, class:"btn btn-secondary btn-sm", method: :delete %>
         </td>
       </tr>
     <% end %>
